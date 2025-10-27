@@ -1,41 +1,80 @@
 {
- "homepage": "https://Shashank2125.github.io/portfolio",
+
  "scripts": {
+
   "dev": "vite",
+
   "build": "vite build",
+
   "preview": "vite preview",
+
   "predeploy": "npm run build",
+
   "deploy": "gh-pages -d dist",
+
   "start": "node server.js"
+
  },
+
  "dependencies": {
+
   "@emailjs/browser": "^4.4.1",
+
   "@gsap/react": "^2.1.2",
-  "@react-three/drei": "^9.97.0",
-  "@react-three/fiber": "^9.3.0",
-  "@react-three/postprocessing": "^3.0.4",
+
+  "@react-three/drei": "^9.122.0",
+
+  "@react-three/fiber": "^8.15.17",
+
+  "@react-three/postprocessing": "^2.15.11",
+
   "@tailwindcss/vite": "^4.1.14",
+
   "gsap": "^3.13.0",
-  "react": "^19.2.0",
+
+  "react": "^18.3.1",
+
   "react-countup": "^6.5.3",
-  "react-dom": "^19.2.0",
+
+  "react-dom": "^18.3.1",
+
   "react-responsive": "^10.0.1",
-  "three": "^0.180.0"
+
+  "three": "^0.170.0"
+
  },
+
  "devDependencies": {
+
   "@vitejs/plugin-react": "^5.0.4",
+
   "autoprefixer": "^10.4.21",
+
   "eslint": "^9.38.0",
+
   "eslint-plugin-import": "^2.32.0",
+
   "postcss": "^8.5.6",
+
   "tailwindcss": "^4.1.14",
+
   "vite": "^5.4.20"
+
  },
+
  "name": "portfolio",
+
  "version": "1.0.0",
+
  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+
  "main": "eslint.config.js",
+
  "keywords": [],
+
  "author": "",
+
  "license": "ISC"
+
 }
+
